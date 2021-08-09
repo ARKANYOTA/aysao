@@ -1,6 +1,6 @@
 # DOCUMENTATION
 
-Serveur
+## Serveur
 <details>
 <summary>Protocole</summary>
 
@@ -17,7 +17,12 @@ Serveur
 | 0x09 | 16bytes | Message dans le chat | Nouveau message dans le chat |
 </details>
 
-Client
+### Base et vague
+
+Lis le fichier du serveur à jouer et le met en memoire
+Fais une sauvegarde du jeu toutes les 3minutes dans le fichier serveur
+
+## Client
 <details>
 <summary>Protocole</summary>
 
